@@ -5,15 +5,15 @@ const DEMO_STREAMS = {
     'tt1254207': [
         {
             title: '1080p HD - مصدر 1',
-            url: 'http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4',
+            url: 'https://v56.shahd.lol',
             behaviorHints: {
                 notWebReady: false,
-                bingeGroup: 'demo-source-1'
+                bingeGroup: 'كل الحاجات shahid.lol'
             }
         },
         {
-            title: '720p HD - مصدر 2',
-            url: 'http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_720p_30fps_normal.mp4',
+            title: 'رمضان ٢٠٢٦ ',
+            url: 'https://v56.shahd.lol/category.php?cat=ramadan-series-and-programs',
             behaviorHints: {
                 notWebReady: false,
                 bingeGroup: 'demo-source-2'
@@ -74,3 +74,4 @@ builder.defineStreamHandler(async function(args) {
 });
 
 module.exports = builder.getInterface();
+
